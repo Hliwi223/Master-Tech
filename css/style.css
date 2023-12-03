@@ -135,8 +135,7 @@ textarea.input {
 }
 
 .input-number input[type="number"]::-webkit-inner-spin-button, .input-number input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+-webkit-appearance: none;
 }
 
 .input-number input[type="number"] {
@@ -444,8 +443,8 @@ textarea.input {
 \*----------------------------*/
 
 #header {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top:0;
+  padding-bottom: 0;
   background-color: #15161D;
 }
 
@@ -1279,6 +1278,8 @@ textarea.input {
 
 /*----------------------------*\
 	Store
+
+
 \*----------------------------*/
 
 .store-filter {
@@ -1340,7 +1341,7 @@ textarea.input {
 /*-- Store Pagination --*/
 
 .store-pagination {
-  float: right;
+  float: left;
 }
 
 .store-pagination li {
